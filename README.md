@@ -10,7 +10,9 @@ The aliases are stored in `~/.config/amctx/config.yml`
 
 ## Installation
 
-`go install github.com/Mohamed-elg/amctx@latest`
+```sh
+go install github.com/Mohamed-elg/amctx@latest
+```
 
 ## Examples
 
