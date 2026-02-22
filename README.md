@@ -14,16 +14,16 @@ The aliases are stored in `~/.config/amctx/config.yml`
 go install github.com/Mohamed-elg/amctx@latest
 ```
 
-## Examples
+## Usage
 
 ```sh
-# switch to another Alertmanager that's in
-$ amctx prod
-switched to context 'prod'.
-
 # add an alias
 $ amctx prod=http://localhost:9093
 alias 'prod' set with url: http://localhost:9093
+
+# switch to another Alertmanager
+$ amctx prod
+switched to context 'prod'.
 
 # list aliases
 $ amctx
